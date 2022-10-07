@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/nomProduit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            />
+
+        <ImageView
+            android:id="@+id/imgProduit"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/nomProduit"
+            android:src="@drawable/bijoux" />
+
+        <TextView
+            android:id="@+id/descProduit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgProduit"
+            android:hint="Description"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descProduit"
+            android:hint="Price" />
+
+    </RelativeLayout>

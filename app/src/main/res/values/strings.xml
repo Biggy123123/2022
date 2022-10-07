@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Market INIK
+    </string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
